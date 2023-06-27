@@ -1,0 +1,103 @@
+.wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.header{
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+
+    grid-template-rows: 50px;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.header p{
+    position: absolute;
+    left: 28.5%;
+}
+
+.header h1{
+    
+    position: absolute;
+    float: center;
+    left: 44%;
+}
+
+.header img{
+    position: absolute;
+    height: 10px;
+    right: 28.5%;
+
+}
+
+.sec{
+    display: grid;
+
+    grid-template-rows: repeat(3, 190px); 
+    grid-template-columns: 300px 350px;
+
+    justify-content: center;
+
+    grid-gap: 10px;
+}
+
+.card{
+    position: relative;
+    display: grid;
+    border: 1px solid black;
+    grid-template-rows: repeat(3, 15%);
+}
+
+.card #cbottom{
+    align-self: flex-end;
+}
+
+.card .content{
+    align-self: center;
+}
+
+.card #ctop1{
+    align-self: end;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    color: blue;
+}
+
+.card #ctop2{
+    margin-left: 15px;
+    margin-bottom: 3px;
+    margin-top: 3.5px;
+}
+
+.card #ctop3{
+    margin-top: 2px;
+    margin-left: 15px;
+    
+}
+
+.card #ctop4{
+    position: absolute;
+    bottom: 40%;
+    left: 4%;
+}
+
+.card #lctop4{
+    position: absolute;
+    left: 4%;
+    bottom: 30%;
+}
+
+.card #cbottom{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.card{
+    border: 5px solid rgb(211, 211, 211);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 99=iii;
+}
